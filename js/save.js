@@ -2,23 +2,23 @@ let game = null;
 
 function getStartGame() {
     return {
-        money: D(10),
+        money: D(1000000000000000000000000000000000000000000000000000000000000000000000000000),
         ladder: [],
         unlocks: {},
 
-        gems: D(0),
-        gemGens: D(0),
-        gemUpgs: D(0),
+        gems: D(100000000000000000000),
+        gemGens: D(10),
+        gemUpgs: D(10),
         runes: [],
         runeEquip: [],
-        scraps: D(0),
+        scraps: D(1000000000),
 
         milestones: {},
 
-        tokens: D(0),
+        tokens: D(100000000000000000000000000),
         tokenUpg: {},
 
-        charge: D(0),
+        charge: D(1000000000000000000000000000000000),
         charges: [],
         nextCharge: 1,
         chargerUpg: {},
